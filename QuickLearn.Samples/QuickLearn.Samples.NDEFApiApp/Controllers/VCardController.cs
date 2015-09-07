@@ -20,7 +20,7 @@ namespace QuickLearn.Samples.NdefApiApp.Controllers
         [SwaggerResponse(HttpStatusCode.OK, "vCard data successfully read from NDEF message", typeof(VCardModel))]
         [SwaggerResponse(HttpStatusCode.BadRequest, "Attempt to parse data failed")]
         public IHttpActionResult Get([Metadata("Base64 NDEF Message",
-            "Base64 encoded NDEF message which contains a vCard record as the first record"] string b64Content)
+            "Base64 encoded NDEF message which contains a vCard record as the first record")] string b64Content)
         {
 
             NdefMessage ndefMessage = null;
