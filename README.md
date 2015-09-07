@@ -20,6 +20,7 @@ The action has the following inputs
 | Base64 NDEF Message | Base64 encoded NDEF message which contains a vCard record as the first record |
 
 The action will return the following output provided valid data
+
 | Property | Friendly Name | Description |
 | ----- | ----- | ----- |
 | GivenName | Given Name | The given name contained in the vCard data |
