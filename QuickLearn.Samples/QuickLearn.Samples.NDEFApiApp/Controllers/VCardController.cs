@@ -15,11 +15,12 @@ namespace QuickLearn.Samples.NdefApiApp.Controllers
     public class VCardController : ApiController
     {
         [Route, HttpGet]
-        [Metadata("Read VCard from Tag",
+        [Metadata("Read vCard from NDEF",
             "Reads the first record within the NDEF message as a vCard and returns the name and email contained")]
         [SwaggerResponse(HttpStatusCode.OK, "vCard data successfully read from NDEF message", typeof(VCardModel))]
         [SwaggerResponse(HttpStatusCode.BadRequest, "Attempt to parse data failed")]
-        public IHttpActionResult Get(string b64Content)
+        public IHttpActionResult Get([Metadata("Base64 NDEF Message",
+            "Base64 encoded NDEF message which contains a vCard record as the first record"] string b64Content)
         {
 
             NdefMessage ndefMessage = null;

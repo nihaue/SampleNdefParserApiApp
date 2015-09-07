@@ -22,7 +22,7 @@ namespace QuickLearn.Samples.NdefApiApp
                 .EnableSwagger(c =>
                     {
 
-                        c.SingleApiVersion("v1", "NdefParser");
+                        c.SingleApiVersion("v1", "NDEFParser");
                         c.ReleaseTheTRex();
 
                         c.OperationFilter<IncludeParameterNamesInOperationIdFilter>();
