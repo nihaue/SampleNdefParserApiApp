@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLearn.Samples.NdefApiApp", "QuickLearn.Samples.NDEFApiApp\QuickLearn.Samples.NdefApiApp.csproj", "{5D7D3BAC-B895-47F1-9BF0-D3BD5A8A5C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VcardLibrary", "VcardLibrary\VcardLibrary.csproj", "{FA79044C-87AA-469B-9C33-B95EBEDE7FDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7D3BAC-B895-47F1-9BF0-D3BD5A8A5C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7D3BAC-B895-47F1-9BF0-D3BD5A8A5C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7D3BAC-B895-47F1-9BF0-D3BD5A8A5C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7D3BAC-B895-47F1-9BF0-D3BD5A8A5C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA79044C-87AA-469B-9C33-B95EBEDE7FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA79044C-87AA-469B-9C33-B95EBEDE7FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA79044C-87AA-469B-9C33-B95EBEDE7FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA79044C-87AA-469B-9C33-B95EBEDE7FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
